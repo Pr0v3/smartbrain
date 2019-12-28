@@ -20,6 +20,14 @@ const particlesOptions = {
 };
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      input: ""
+    };
+  }
+
+  onInputChange = () => {};
   render() {
     return (
       <div className="App">
