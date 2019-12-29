@@ -10,7 +10,7 @@ const particlesOptions = {
   particles: {
     line_linked: {
       shadow: {
-        value: 350,
+        value: 550,
         enable: true,
         color: "#3CA9D1",
         blur: 5
