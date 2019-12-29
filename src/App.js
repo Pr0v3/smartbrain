@@ -46,7 +46,7 @@ class App extends Component {
       )
       .then(
         function(response) {
-          // do something with responseconsole.log(response);
+          console.log(response);
         },
         function(err) {}
       );
